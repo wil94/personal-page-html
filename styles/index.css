@@ -26,9 +26,10 @@
 
 .text-panel-header {
     color: var(--text-primary-color);
+    text-shadow: 1px 1px 1px var(--black-color);
 }
 
-/* Descripciones primarias */
+/* Textos para Descripciones primarias */
 .text-desc {
     font-family: 'Nunito', sans-serif;
     font-size: var(--text-desc-size);
@@ -77,8 +78,8 @@
 }
 
 .personal-img {
-    width: 25vh;
-    height: 25vh;
+    width: 30vh;
+    height: 30vh;
     background-image: url(../images/ImgPage.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -101,6 +102,11 @@
     margin-left: auto;
     margin-bottom: 1px;
     /* outline: 2px solid green; */
+}
+
+.secondary-desc p, h5, h4 {
+    text-align: justify;
+    margin-bottom: 8px;
 }
 
 .separator {
@@ -144,7 +150,7 @@
 
 .container-footer {
     /* outline: 2px solid red; */
-    height: 9vh;
+    height: 10vh;
     background: var(--primary-color);
 }
 
